@@ -27,4 +27,4 @@ These threads use OS scheduled CPU core;
 
 Tiem take: 4389	ms
 
-* Note the comparison with stl map which uses a red-black tree. Our code is a 2-3-4 balanced tree and the code is hardly optimized for memory or speed. So there is a lot of improvements possible.
+* Note the comparison with stl map which uses a red-black tree. Our code is a 2-3-4 balanced tree and the code is hardly optimized for memory or speed. So there are a lot of improvements to be had.
