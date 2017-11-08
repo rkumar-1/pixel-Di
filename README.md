@@ -1,14 +1,17 @@
 # pixel-Di
 The quest to discover simple primitives and techniques to effectively provision and divide the work between multiple cores makes this project interesting. This is a test bed for distributed experiements.
 
-Experiements:
+*Experiements:*
 
-1. Initial experiment is a Tree builder. Build a BST with 250K random key value pairs and measure the time taken to 
-build the tree. The goal is to cut the time to build the tree using multi-cores effectively.
+1. Initial experiment builds a balanced binary search tree with 250K random keys. 
 
-2. System used: Intel i7 with 4 cores and 8 HW threads of execution with 8 GB memory.
+2. Metrics: Measures the time taken to build the tree. The goal is to cut the time to build the tree using multi-cores effectively.
 
-3. Results from initial experiments using the pixel-Da static library and the pixel-Di framework.
+3. System used: Intel i7 with 4 cores and 8 HW threads of execution with 8 GB memory.
+
+4. Results 
+
+The initial experiments use the pixel-Da static library and the pixel-Di framework.
 
                                  	n	                t(ms)	  stl_map			
 i). uses a single thread	
