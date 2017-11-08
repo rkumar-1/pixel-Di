@@ -1,7 +1,7 @@
 # pixel-Di
 The quest to discover simple primitives and techniques to effectively provision and divide the work between multiple cores makes this project interesting. This is a test bed for distributed experiements.
 
-*Experiements:*
+*Experiments:*
 
 1. Initial experiment builds a balanced binary search tree with 250K random keys. 
 
@@ -9,23 +9,22 @@ The quest to discover simple primitives and techniques to effectively provision 
 
 3. System used: Intel i7 with 4 cores and 8 HW threads of execution with 8 GB memory.
 
-4. Results 
+# Results 
 
 The initial experiments use the pixel-Da static library and the pixel-Di framework.
 
                                  	n	                t(ms)	  stl_map			
-i). uses a single thread	
+1). Single thread runs the BST builder	
 
    {tree_builder_single_thread	 7570ms} | { stl map   3488ms}
 
-ii). tree_builder_two_threads	  
+2). Tree_builder uses two threads using multiple cores
 
-Time cut to  4205ms for bst 234 tree. These threads use OS scheduled CPU core; Time measured includes thread creation and 
-launch.	
+Time cut to  4205ms for bst 234 tree. Time measured includes thread creation and launch.
+These threads use OS scheduled CPU core;
 
-iii). tree_builder_two_threads_user_Specified_cpu_core		4389				
+3). User assigns specifs cpu_core to the two threads		
+
+Tiem take: 4389	ms
 
 * Note the comparison with stl map which uses a red-black tree. Our code is a 2-3-4 balanced tree and the code is hardly optimized for memory or speed. So there is a lot of improvements possible.
-
-
-
