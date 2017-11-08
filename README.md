@@ -1,2 +1,2 @@
 # pixel-Di
-Distributed pixel - using concurrent multi-cores more efficiently - a test bed for distributed experiements 
+The quest to discover simple primitives and techniques to effectively provision and divide the work between multiple cores makes this project interesting. This is a test bed for distributed experiements.
