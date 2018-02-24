@@ -2,9 +2,9 @@
 
 Today, programming multiple core CPUs is an expert friendly job. 
 
-Can this be simplified? Can we hide the complexity cleverly into a library for users to express and utilize for varoious use cases? Perhaps programming multicores can be made as simple as using a declarative programming language like SQL? 
+Can this be simplified? Can we hide the complexity cleverly into a library for users to express and utilize for various use cases? Perhaps programming multicores can be made as simple as using a declarative programming language like SQL? 
 
-I hear you laugh! But, I happen to beleive this is a necessity for modern day applications are compute hungry and programing them needs a balance between "the edge" and "the cloud".
+I hear you laugh! But, I happen to believe this is a necessity for modern day applications are compute hungry and programing them needs a balance between "the edge" and "the cloud".
 
 The quest here is to learn from what others have done and provide a simpler programming model for multi-cores. 
 
@@ -17,9 +17,9 @@ Have you seen the movie I Robot?
 
 You know the thing that defies Will Smith and tries to out run him? It has no time to contact the cloud while it is busy escaping from Will Smith, who intends to destroy it, you see! It probably has tens of hundreads of processors running inside it already!
 
-The same is the case with an autonomous vehical that google, ford, uber etc. are all busy creating! There are many use cases that are real-time in nature that the compute needs to happen on the edge itself and a decisive action taken! This requires full utilization of the client-side compute! 
+The same is the case with autonomous vehicles that google, ford, uber etc. are all busy creating! There are many use cases that are real-time in nature and the compute needs to happen at the edge itself resulting in a decisive action! This requires full utilization of the client-side compute! 
 
-Why, even my dingy 3 years old Android mobile phone now carries a multicore CPU! I see Apple doing with for their Siri application leveraging the mobile processor more than others!
+Why, even my dingy 3 years old Android mobile phone now carries a multicore CPU! I see Apple leveraging the mobile processor more than others, as an example with their Siri application!
 
 Why choose C++?
 ==============
@@ -32,20 +32,20 @@ Also Erlang is far from offering a declarative language. It however does a fine 
 
 *Resource constrained devices*
 
-IOT projects frequently employ resource constrained devices as well as rich devices and they expect your application platform to run on both! This can be a challenge with some languges such as Java. In a recent project, the minimum memory requirement for a simple control application written in Java could not be brought below 2 GB. This forced the manufacturer to keep the device memory above a certain threshold. Now, C++ or C offers much more control over the memory requirement with the caveat that some of the most basic protocols and services such as HTTP that you take for granted in Java needs to be built!
+IOT projects frequently employ resource constrained devices as well as rich devices and they expect your application platform to run on both! This can be a challenge with some languages such as Java. In a recent project, the minimum memory requirement for a simple control application written in Java could not be brought below 2 GB. This forced the manufacturer to keep the device memory above a certain threshold. Now, C++ or C offers much more control over the memory requirement with the caveat that some of the most basic protocols and services such as HTTP that you take for granted in Java needs to be built!
 
 Hopefully, I have you nodding that a library written in C++ and providing a simple descriptive programming language can be a worthy attempt! 
 
 *Hand coding a Super Scalar CPU - my experience*
 
-Early in my career, I had to program a super scalar, super computing Intel CPU by hand. Yes. Hand transcribing the opcodes without the help of a compiler or a translator. Call me crazy!  I was coding this graphics accelerator library and the Intel CPU provided specialized instructions with two parallel cores! So, I learnt to program the two cores!
+Early in my career, I had to program a super scalar, supercomputing Intel CPU by hand. Yes. Hand transcribing the opcodes without the help of a compiler or a translator. Call me crazy!  I was coding this graphics accelerator library and the Intel CPU provided specialized instructions with two parallel cores! So, I learnt to program the two cores!
 
 This experience should allow me to approach the problem(s) of parallel execution of CPU, GPU and FPU cores with some level of confidence, I hope. 
 
-Distributed experiements
+Distributed experiments
 ==============
 
-This is my scratch space to run some experimental code. So you can skip these without loosing anything.
+This is my scratch space to run some experimental code. So, you can skip these without losing anything.
 
 *Experiments:*
 
