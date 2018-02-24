@@ -4,7 +4,7 @@ Today, programming multiple core CPUs is an expert friendly job.
 
 Can this be simplified? Can we hide the complexity cleverly into a library for users to express and utilize for various use cases? Perhaps programming multicores can be made as simple as using a declarative programming language like SQL? 
 
-I hear you laugh! But, I happen to believe this is a necessity for modern day applications are compute hungry and programing them needs a balance between "the edge" and "the cloud".
+I hear you laugh! But, I happen to believe this is a necessity for modern day applications, the complexity of which is increasing and are generally compute hungry and are distributed as well. The workload needs a balance between "the edge" and "the cloud".
 
 The quest here is to learn from what others have done and provide a simpler programming model for multi-cores. 
 
