@@ -15,20 +15,28 @@ Please allow me to explain.
 
 Have you seen the movie I Robot? 
 
-You know the thing that defies Will Smith and tries to out run him probably has tens of hundreads of processors running inside it. It has no time to contact the cloud while it is busy escaping from Will Smith, who intends to destroy it, you see! 
+You know the thing that defies Will Smith and tries to out run him? It has no time to contact the cloud while it is busy escaping from Will Smith, who intends to destroy it, you see! It probably has tens of hundreads of processors running inside it already!
 
-The same is the case with an autonomous vehical that google, ford, uber etc. are all busy creating! 
+The same is the case with an autonomous vehical that google, ford, uber etc. are all busy creating! There are many use cases that are real-time in nature that the compute needs to happen on the edge itself and a decisive action taken! This requires full utilization of the client-side compute! 
 
-Why, even my dingy 3 years old mobile phone now carries a multicore CPU!
+Why, even my dingy 3 years old Android mobile phone now carries a multicore CPU! I see Apple doing with for their Siri application leveraging the mobile processor more than others!
 
 Why choose C++?
 ==============
 
-There are many programming languages such as erlang that do a fine job of abstracting the multiple-cores and to present a lightweight process and programming model that helps hide the complexity. However, these languages have a different origin and purpose. Erlang is far from offering a declarative language, although it does a fine job about how a distributed service is included or called from your program.
+*Erlang*
+
+There are many programming languages such as erlang that do a fine job of abstracting the multiple-cores. Erlang even presents a lightweight process and programming model that helps hide the complexity. However, the language has a different origin and purpose. 
+
+Also Erlang is far from offering a declarative language. It however does a fine job in location transparency.  
+
+*Resource constrained devices*
 
 IOT projects frequently employ resource constrained devices as well as rich devices and they expect your application platform to run on both! This can be a challenge with some languges such as Java. In a recent project, the minimum memory requirement for a simple control application written in Java could not be brought below 2 GB. This forced the manufacturer to keep the device memory above a certain threshold. Now, C++ or C offers much more control over the memory requirement with the caveat that some of the most basic protocols and services such as HTTP that you take for granted in Java needs to be built!
 
 Hopefully, I have you nodding that a library written in C++ and providing a simple descriptive programming language can be a worthy attempt! 
+
+*Hand coding a Super Scalar CPU - my experience*
 
 Early in my career, I had to program a super scalar, super computing Intel CPU by hand. Yes. Hand transcribing the opcodes without the help of a compiler or a translator. Call me crazy!  I was coding this graphics accelerator library and the Intel CPU provided specialized instructions with two parallel cores! So, I learnt to program the two cores!
 
