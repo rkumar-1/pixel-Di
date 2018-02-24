@@ -19,7 +19,7 @@ You know the thing that defies Will Smith and tries to out run him? It has no ti
 
 The same is the case with autonomous vehicles that google, ford, uber etc. are all busy creating! There are many use cases that are real-time in nature and the compute needs to happen at the edge itself resulting in a decisive action! This requires full utilization of the client-side compute! 
 
-Why, even my dingy 3 years old Android mobile phone now carries a multicore CPU! I see Apple leveraging the mobile processor more than others, as an example with their Siri application!
+Why, even my dingy 3 years old Android mobile phone now carries a multicore CPU! At the mobile front, I see Apple leveraging the mobile processor more than others, as an example with their Siri application!
 
 Why choose C++?
 ==============
