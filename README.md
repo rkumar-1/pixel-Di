@@ -8,7 +8,7 @@ I hear you laugh! But, I happen to beleive this is a necessity for modern day ap
 
 The quest here is to learn from what others have done and provide a simpler programming model for multi-cores. 
 
-Computing today live on the Edge!
+Can computers live on the Edge?
 ==============
 
 Please allow me to explain. 
