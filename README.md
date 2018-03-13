@@ -6,7 +6,7 @@ Can this be simplified? Can we hide the complexity cleverly into a library for u
 
 I hear you laugh! But, I happen to believe this is a necessity for modern day applications, the complexity of which is increasing and are generally compute hungry and are distributed as well. The workload needs a balance between "the edge" and "the cloud".
 
-The quest here is to learn from what others have done and provide a simpler programming model for multi-cores. 
+The quest here is to build, learn and provide a simpler programming model for multi-cores that can be deployed either on a server or a client device. 
 
 Can computers live on the Edge?
 ==============
